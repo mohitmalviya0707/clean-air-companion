@@ -53,3 +53,4 @@ AQI is entered manually (no live feed). Impact figures are rough, typical ranges
 
 ## License
 MIT
+# clean-air-companion
