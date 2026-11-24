@@ -1,5 +1,5 @@
 import { test } from 'node:test';
-import assert from 'node:assert/strict';
+import assert from 'node:assert/strict'; 
 import { bandFor, parseProfile, buildPlan, exposureIndex, ACTIONS, CHOICES } from '../src/engine.js';
 
 const base = (o = {}) => parseProfile({ aqi: 220, ...o }).profile;
