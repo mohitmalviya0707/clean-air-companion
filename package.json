@@ -1,0 +1,12 @@
+{
+  "name": "clean-air-companion",
+  "version": "1.0.0",
+  "description": "GenAI assistant for low-emission routines and indoor air quality during severe winter smog",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test tests/engine.test.js tests/api.test.js"
+  }
+}
